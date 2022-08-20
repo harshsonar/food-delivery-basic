@@ -1,0 +1,147 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* CSS Variable */
+:root{
+    --something: ;
+}
+
+body{
+    font-family: 'Fredoka', sans-serif;
+    font-weight: normal;
+    background-color: black;
+    overflow-x: hidden;
+}
+
+/* Logo and NavBar */
+
+
+#navbar{
+    display: flex;
+    
+}
+
+
+
+/* #navbar::before{
+    content: "";
+    position: absolute;
+    background-color: rgb(255, 153, 0);
+    width: 100%;
+    z-index: -1;
+    opacity: 1;
+} */
+
+#logo{
+    display: flex;
+    height: 140px;
+}
+
+
+
+#navbar ul{
+    display: flex;
+    position: absolute;
+    top: 60px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20px;
+}
+
+#navbar ul li{
+    list-style: none;
+    padding: 0px 60px;
+}
+
+#navbar ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+#navbar ul li a:hover{
+    color: rgb(241, 139, 79);
+}
+
+/* Home Section */
+
+#home{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 240px;
+    height: 400px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    z-index: 1;
+    /* background: url('pexels-narda-yescas-1566837.jpg') no-repeat center center/cover; */
+}
+
+#home::before{
+    content: "";
+    position: absolute;
+    background-color: black;
+    background: url('pexels-bulut-tuncay-11130882.jpg') no-repeat center center/cover;
+    
+    background-position: center;
+    top:0px;
+    left:0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.85;
+}
+
+#home h1{
+    text-align: center;
+}
+
+.h-primary{
+    padding: 10px;
+    font-size: 35px;
+}
+
+#home p{
+    text-align: center;
+}
+
+.services{
+    display: flex;
+    margin-top: 13%;
+    color: white;
+}
+
+.services img{
+    height: 800px;
+    margin-top: 60px;
+    margin-left: 100px;
+    border-radius: 10px;
+}
+
+.services form{
+    margin-left: 300px;
+    margin-top: 250px;
+}
+
+.services form h2{
+    padding: 10px 0px;
+    font-size: 33px;
+}
+
+.services div{
+    font-size: 25px;
+}
+
+.services form div input{
+    border-radius: 5px;
+    background-color: rgb(37, 37, 37);
+    color: white;
+}
+
+.services1{
+    padding: 25px 0px;
+}
